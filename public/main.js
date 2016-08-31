@@ -22,6 +22,8 @@ $(document).ready(function() {
        }
     });
 
+
+
     //emit the 'typing' code to the server if someone is typing, to broadcast '...is typing' to all users
     input.on('keydown', function(event) {
        if (event.keyCode != 13) {
